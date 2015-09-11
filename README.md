@@ -1,11 +1,11 @@
 # Usage
-#### Add the dependency in your build.gradle.
+#### 1. Add the dependency in your build.gradle.
 ```java
 dependencies {
     compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
 }
 ```
-#### Add this code on your main layout
+#### 2. Add this code on your main layout
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -30,11 +30,11 @@ dependencies {
 
 </LinearLayout>
 ```
-#### Create Fragment for display your content important ! don't forgot import  support.v4.app.Fragment 
+#### 3. Create Fragment for display your content important ! don't forgot import  support.v4.app.Fragment 
 ```java
  import android.support.v4.app.Fragment; 
 ```
-#### Create FragmentPageAdapter 
+#### 4. Create FragmentPageAdapter 
 ```java
 public class SampleFragmentPagerAdapter extends FragmentPagerAdapter {
     final int PAGE_COUNT = 2;
@@ -67,7 +67,7 @@ public class SampleFragmentPagerAdapter extends FragmentPagerAdapter {
     }
 }
 ```
-#### Finally following code in your MainActivity
+#### 5. Finally following code in your MainActivity
 ```java
 public class MainActivity extends FragmentActivity {
 
