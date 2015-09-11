@@ -1,4 +1,4 @@
-# Usage
+# How to
 #### 1. Add the dependency in your build.gradle.
 ```java
 dependencies {
